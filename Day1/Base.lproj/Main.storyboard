@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Journal Detail View Controller-->
         <scene sceneID="Bcs-v4-yqH">
             <objects>
-                <viewController id="Ayl-FZ-hYw" sceneMemberID="viewController">
+                <viewController id="Ayl-FZ-hYw" customClass="JournalDetailViewController" customModule="Day1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Odb-YQ-0OR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -28,7 +28,7 @@
         <!--Item-->
         <scene sceneID="1lf-i1-eM9">
             <objects>
-                <collectionViewController id="BFk-Z7-MBT" sceneMemberID="viewController">
+                <collectionViewController id="BFk-Z7-MBT" customClass="PhotoCollectionViewController" customModule="Day1" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="P0x-Wn-7zI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -98,7 +98,7 @@
         <!--Item-->
         <scene sceneID="AM1-be-KlO">
             <objects>
-                <tableViewController id="zh6-GA-GQE" sceneMemberID="viewController">
+                <tableViewController id="zh6-GA-GQE" customClass="JournalTableViewController" customModule="Day1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="3db-e2-Wd8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -124,10 +124,10 @@
             </objects>
             <point key="canvasLocation" x="2002" y="-313"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Journal View Controller-->
         <scene sceneID="07O-si-z9X">
             <objects>
-                <viewController id="kZs-Dm-PRm" sceneMemberID="viewController">
+                <viewController id="kZs-Dm-PRm" customClass="CreateJournalViewController" customModule="Day1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="On9-Ga-TJK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
