@@ -121,7 +121,7 @@
                                     </subviews>
                                 </stackView>
                             </subviews>
-                            <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" red="0.29471325874328613" green="0.74311321973800659" blue="0.9407120943069458" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstItem="Y0O-Jq-MiL" firstAttribute="top" secondItem="Jkd-oL-mBd" secondAttribute="top" constant="50" id="9Ne-dN-Blz"/>
                                 <constraint firstAttribute="trailing" secondItem="Y0O-Jq-MiL" secondAttribute="trailing" id="eEA-Sy-D0Z"/>
@@ -145,6 +145,10 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Item" id="HL4-La-ti3"/>
+                    <connections>
+                        <outlet property="whiteAddButton" destination="HXf-4d-kvF" id="pBf-FW-e38"/>
+                        <outlet property="whiteCameraButton" destination="Tfn-ia-LUt" id="3Ek-Od-BeU"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z4x-dH-h4J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

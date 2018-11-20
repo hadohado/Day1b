@@ -10,9 +10,17 @@ import UIKit
 
 class JournalTableViewController: UITableViewController {
 
+
+    @IBOutlet weak var whiteCameraButton: UIButton!
+    
+    @IBOutlet weak var whiteAddButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        whiteAddButton.imageView?.contentMode = .scaleAspectFit
+        whiteCameraButton.imageView?.contentMode = .scaleAspectFit
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
