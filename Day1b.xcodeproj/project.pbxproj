@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7B10608021A3748B00BFA697 /* Day1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B10608021A3748B00BFA697 /* Day1b.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day1b.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B10608321A3748B00BFA697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B10608821A3748B00BFA697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B10608A21A3748D00BFA697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		7B10608121A3748B00BFA697 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B10608021A3748B00BFA697 /* Day1.app */,
+				7B10608021A3748B00BFA697 /* Day1b.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B10607F21A3748B00BFA697 /* Day1 */ = {
+		7B10607F21A3748B00BFA697 /* Day1b */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B10609221A3748D00BFA697 /* Build configuration list for PBXNativeTarget "Day1" */;
+			buildConfigurationList = 7B10609221A3748D00BFA697 /* Build configuration list for PBXNativeTarget "Day1b" */;
 			buildPhases = (
 				7B10607C21A3748B00BFA697 /* Sources */,
 				7B10607D21A3748B00BFA697 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = Day1;
+			name = Day1b;
 			productName = Day1;
-			productReference = 7B10608021A3748B00BFA697 /* Day1.app */;
+			productReference = 7B10608021A3748B00BFA697 /* Day1b.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7B10607B21A3748B00BFA697 /* Build configuration list for PBXProject "Day1" */;
+			buildConfigurationList = 7B10607B21A3748B00BFA697 /* Build configuration list for PBXProject "Day1b" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B10607F21A3748B00BFA697 /* Day1 */,
+				7B10607F21A3748B00BFA697 /* Day1b */,
 			);
 		};
 /* End PBXProject section */
@@ -301,7 +301,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alpine.Day1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpine.Day1b;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +319,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alpine.Day1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpine.Day1b;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B10607B21A3748B00BFA697 /* Build configuration list for PBXProject "Day1" */ = {
+		7B10607B21A3748B00BFA697 /* Build configuration list for PBXProject "Day1b" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B10609021A3748D00BFA697 /* Debug */,
@@ -338,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B10609221A3748D00BFA697 /* Build configuration list for PBXNativeTarget "Day1" */ = {
+		7B10609221A3748D00BFA697 /* Build configuration list for PBXNativeTarget "Day1b" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B10609321A3748D00BFA697 /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Day1.xcodeproj">
+      location = "self:/Users/ai87/Documents/SOFTWARE/_ios_10day_advanced/Day1b/Day1b.xcodeproj">
    </FileRef>
 </Workspace>
